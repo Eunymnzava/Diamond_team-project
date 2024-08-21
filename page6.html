@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Platform</title>
+    <link rel="stylesheet" href="page5.css">
+</head>
+<body>
+    <div id="side-bar">
+        <p class="hist">
+            HISTORY
+        </p> 
+        <p class="plan">
+            CHANGE PLAN
+        </p>
+        <p class="deed">
+            One click, one good deed
+        </p>
+
+    </div>
+    
+    <div id="app">
+        <p class="donation">PLEASE ENTER DONATION MESSAGE HERE</p>
+
+        <textarea class="name" placeholder="PLEASE TYPE HERE"></textarea>
+        <div>
+            <label for="payment-method">SELECT PAYMENT METHOD</label>
+            <select id="payment-method">
+                <option value="mobile">MOBILE PAYMENT</option>
+                <option value="bank">BANK</option>
+            </select>
+        </div>
+        <button @click="confirmPayment">CONFIRM</button>
+    </div> 
+
+    
+
+
+    
+    <script src="app.js"></script>
+</body>
+</html>

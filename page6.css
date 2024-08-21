@@ -1,0 +1,69 @@
+/*body {
+    font-family: Inria Sans;
+    background-color: #29dda7;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;*//
+}*/
+
+#app {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.donation{
+    font-size: 15px;
+
+}
+
+.name{
+    font-family: Italiano;
+    font-style: italic;
+    border-radius:10px ;
+    background-color: rgb(219, 208, 208);
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #29dda7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#side-bar{
+    background-color: #29dda7;
+    color: black;
+    display: inline-block;
+    height: 550px;
+
+    
+
+    
+
+
+
+
+
+}

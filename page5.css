@@ -1,0 +1,53 @@
+#app{
+    background-color: white;
+    color: black;
+    display: inline-block;
+    padding: 10px;
+}
+.donation{
+    font-size: 15px;
+
+}
+
+.name{
+    font-family: Italiano;
+    font-style: italic;
+    border-radius:10px ;
+    background-color: rgb(219, 208, 208);
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #29dda7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.deed{
+    margin-top: 500px;
+
+
+}
+#side-bar{
+    display: inline-block;
+    color: black;
+    background-color: #29dda7;
+    height:600px;
+    vertical-align: top ;
+    padding: 10px;
+    border-width: 2px;
+    border-radius: 5px;
+
+}
